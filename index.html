@@ -345,11 +345,17 @@
 </section>
 <!-- Contact End -->
 
-<!--to be pasted here-->
 <script>
-    // 🔥 Initialize Firebase
+  // ✅ Firebase Configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyASAv1KfwmvWyKGyNpMapfnrg3gXGdPPVM",
+    authDomain: "socialmediaclone-b9b3f.firebaseapp.com",
+    projectId: "socialmediaclone-b9b3f",
+    storageBucket: "socialmediaclone-b9b3f.firebasestorage.app",
+    messagingSenderId: "649948215169",
+    appId: "1:649948215169:web:6a7c613d0334758d61da80"
+  };
     firebase.initializeApp(firebaseConfig);
-    // ✅ Handle Form Submission
     document.getElementById("contactForm").addEventListener("submit", function (event) {
         event.preventDefault();
 
